@@ -14,14 +14,14 @@ public class ASUHelloWorldJavaFX extends Application {
     }
     
     public void start(Stage primaryStage) {
-    	System.out.println("ASU Hello World!");
+    	System.out.println("ASU Hello Alysa Isaksen!");
     	System.out.println("It started!");
         primaryStage.setTitle("Alysa Isaksen Hello World Fall 2024");
         Button btn = new Button();
-        btn.setText("Display: 'Alysa says: Hello World!'");
+        btn.setText("Display: 'Alysa Isaksen says: Hello World!'");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
-                System.out.println("Alysa says: Hello World!");
+                System.out.println("Alysa Isaksen says: Hello World!");
             }
         });
         
